@@ -54,6 +54,8 @@ p{
     align-items: center;
     margin-top: 5px;
     border-radius: 5px;
+    color: white;
+    transition: 0.4s;
 }
 .leftbut{
     width: 100px;
@@ -127,7 +129,7 @@ h1{
 .lastbut{
     width: 130px;
     height: 50px;
-    background-color: transparent;
+    background-color: rgb(199, 193, 193);
     border: solid; 
     float: left;
     border-color: white;
@@ -139,6 +141,8 @@ h1{
     font-weight: 600;
     margin-right: 15px;
     border-radius: 5px;
+    transition: 0.4s;
+    
 }
 .lastbut2{
     width: 130px;
@@ -154,6 +158,7 @@ h1{
     border: solid;
     border-color: rgb(235,99,8);
     border-radius: 5px;
+    transition: 0.4s;
 }
 .lastbut:hover{
 background-color: white;
@@ -163,7 +168,16 @@ color: rgb(235,99,8);
     background-color: rgb(255, 138, 60);
     border-color: rgb(255, 138, 60);
 }
-a {
-    text-decoration: none;
+.bla {
+    text-decoration: none;color: black;
     
+}
+.bottun:hover{
+background-color: rgb(255, 150, 80);
+}
+.whi{
+    color: white;
+}
+a{
+    text-decoration: none;
 }
